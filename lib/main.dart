@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_bloc_cubit_issue/pages/blocbased/blocbased_bloc.dart';
-import 'package:flutter_bloc_cubit_issue/pages/blocbased/blocbased_page.dart';
-import 'package:flutter_bloc_cubit_issue/pages/cubitbased/cubitbased_cubit.dart';
-import 'package:flutter_bloc_cubit_issue/pages/cubitbased/cubitbased_page.dart';
 
+import 'pages/blocbased/blocbased_bloc.dart';
+import 'pages/blocbased/blocbased_page.dart';
+import 'pages/cubitbased/cubitbased_cubit.dart';
+import 'pages/cubitbased/cubitbased_page.dart';
 import 'pages/cubitbasedworkaround/cubitbasedworkaround_cubit.dart';
 import 'pages/cubitbasedworkaround/cubitbasedworkaround_page.dart';
 
@@ -31,7 +31,7 @@ class MyApp extends StatelessWidget {
         create: ((context) => BlocBasedCubit()),
         child: const BlocBasedPage(),
       ),
-      */
+     */
       /*
       home: BlocProvider(
         create: ((context) => CubitBasedWorkaroundCubit()),
